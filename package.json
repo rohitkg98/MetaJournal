@@ -1,0 +1,24 @@
+{
+  "name": "metajournal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitkg98/MetaJournal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitkg98/MetaJournal/issues"
+  },
+  "homepage": "https://github.com/rohitkg98/MetaJournal#readme",
+  "dependencies": {
+    "@angular/cli": "^6.2.3",
+    "@clr/ui": "^0.13.2",
+    "express": "^4.16.3"
+  }
+}
