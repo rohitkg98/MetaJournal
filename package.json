@@ -18,7 +18,6 @@
   "homepage": "https://github.com/rohitkg98/MetaJournal#readme",
   "dependencies": {
     "@angular/cli": "^6.2.3",
-    "@clr/ui": "^0.13.2",
     "express": "^4.16.3"
   }
 }
