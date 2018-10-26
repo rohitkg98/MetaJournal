@@ -1,0 +1,11 @@
+.search-container {
+  width: 60%;
+  margin:auto;
+  margin-top : 1rem;
+}
+.width-100{
+  width: 80%;
+}
+.spacer {
+  flex : 1 1 auto;
+}

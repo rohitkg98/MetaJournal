@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { MatSidenav } from '@angular/material';
+
 
 @Component({
   selector: 'app-navbar',
@@ -14,7 +16,6 @@ export class NavbarComponent {
     .pipe(
       map(result => result.matches)
     );
-    
+  @ViewChild('rightSideNav') rightSideNav: MatSidenav;
   constructor(private breakpointObserver: BreakpointObserver) {}
-  
   }
